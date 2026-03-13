@@ -1,29 +1,29 @@
-Overview
+# JobPulse – Naukri Job Market Scraper
 
-This project extracts job listings from Naukri.com using Python web scraping techniques. The script collects information such as job title, company name, location, experience required, and job description, and stores it for further analysis.
+## Overview
+JobPulse is a Python-based web scraping project that extracts job listings from Naukri.com. The project collects job-related information and converts raw HTML data into a structured dataset for further analysis of job market trends and skill demand.
 
-Features
+## Features
+- Automated job listing extraction
+- Structured data collection from web pages
+- Data cleaning and transformation
+- Exporting job data for further analysis
 
-Automated job data extraction from Naukri
+## Data Collected
+The scraper extracts the following job attributes:
+- Job Title
+- Company Name
+- Location
+- Experience Required
+- Job Description
 
-Collects multiple job attributes
+## Technologies Used
+- Python
+- BeautifulSoup
+- Requests
+- Pandas
 
-Data cleaning and structuring
-
-Export of scraped data for analysis
-
-Technologies Used
-
-Python
-
-BeautifulSoup / Requests
-
-Pandas
-
-Use Cases
-
-Job market analysis
-
-Skill demand analysis
-
-Building datasets for data science projects
+## Use Cases
+- Job market analysis
+- Skill demand analysis
+- Dataset creation for data science projects
